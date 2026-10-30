@@ -1,0 +1,113 @@
+# APEXPLANET INTERNSHIP
+
+## Task 2: Exploratory Data Analysis (EDA) and Business Intelligence
+
+### 1. Project Overview
+
+The objective of this project is to analyze sales data, identify important patterns, visualize business performance, and generate useful insights to support data-driven decisions.
+
+### 2. Dataset Overview
+
+* Total Records: 1,000
+* Total Columns: 12
+* Date Range: January 2025 to January 2026
+* Data Fields: Order ID, Order Date, Customer ID, Customer Name, Age, Gender, City, Product, Category, Quantity, Unit Price, and Total Sales.
+
+### 3. Data Cleaning
+
+The following data-cleaning steps were performed using Python and Pandas:
+
+* Identified 20 missing values in the Age column.
+* Replaced missing Age values with the median age of 41.
+* Identified 13 missing values in the City column.
+* Replaced missing City values with "Unknown".
+* Converted Order_Date into a date format.
+* Checked for duplicate records. No duplicate rows were found.
+* Exported the cleaned dataset to a CSV file.
+
+After cleaning, the dataset contained 1,000 rows and 12 columns with no missing values.
+
+### 4. Exploratory Data Analysis
+
+Python libraries used:
+
+* Pandas
+* Matplotlib
+* Seaborn
+
+The following analyses were performed:
+
+* Descriptive statistics
+* Sales by category
+* Sales by city
+* Sales by product
+* Monthly sales trends
+* Correlation analysis
+
+### 5. Key Findings
+
+**Category Performance**
+
+Electronics generated the highest total sales, approximately ₹5.08 crore. Education ranked second, with approximately ₹2.50 crore in sales.
+
+**City Performance**
+
+Patna recorded the highest total sales, approximately ₹1.93 crore. Kolkata ranked second, with approximately ₹1.89 crore.
+
+**Product Performance**
+
+Laptops generated the highest total sales, approximately ₹2.54 crore. Mobile phones followed closely, with approximately ₹2.53 crore.
+
+**Monthly Sales Trend**
+
+Sales varied across the months. March 2025 recorded approximately ₹1.31 crore in sales, while September 2025 recorded approximately ₹91.80 lakh.
+
+January 2026 recorded approximately ₹8.09 lakh. This figure is considerably lower than the preceding months and requires further investigation to determine whether it reflects a partial month or another factor.
+
+### 6. Correlation Analysis
+
+The correlation analysis produced the following results:
+
+* Quantity and Total Sales: 0.647
+* Unit Price and Total Sales: 0.686
+* Age and Total Sales: 0.001
+
+Quantity and Unit Price both showed positive correlations with Total Sales. Age showed almost no linear correlation with Total Sales.
+
+Correlation indicates an association between variables and does not, by itself, prove causation.
+
+### 7. Visualizations Created
+
+The following charts were generated and saved in the charts folder:
+
+1. Sales by Category
+2. Sales by City
+3. Sales by Product
+4. Monthly Sales Trend
+5. Correlation Heatmap
+
+### 8. Business Recommendations
+
+1. Review the performance of the Electronics category to identify opportunities for maintaining or increasing sales.
+2. Investigate the factors contributing to Patna's strong sales performance.
+3. Compare laptop and mobile sales to identify product-specific opportunities.
+4. Review monthly sales patterns to identify seasonal changes and possible opportunities for improvement.
+5. Investigate the unusually low January 2026 sales figure before making business decisions.
+6. Use additional customer and transaction analysis to understand purchasing behaviour.
+
+### 9. Tools and Technologies
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Microsoft Excel
+* CSV files
+
+### 10. Conclusion
+
+This project demonstrates the use of Python for data cleaning, exploratory data analysis, statistical summaries, correlation analysis, and data visualization. The findings highlight differences in category, city, and product performance and identify areas that require further investigation.
+
+The next stage of the project will use SQL to answer business questions and support the development of a static dashboard mock-up.
+
+**Project Status:** EDA completed successfully.
